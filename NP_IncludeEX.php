@@ -328,4 +328,3 @@ class PLUG_INCLUDE extends BaseActions {
 		$contents = preg_replace($target, $replace, $contents);
 	}
 }
-?>
