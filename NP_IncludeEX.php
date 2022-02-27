@@ -218,9 +218,9 @@ class NP_IncludeEX extends NucleusPlugin {
 
 class PLUG_INCLUDE extends BaseActions {
 
-	function PLUG_INCLUDE($type) {
+	function __construct($type) {
 		// call constructor of superclass first
-		$this->BaseActions();
+		parent::__construct();
 		
 		//$this->skin = new SKIN($type);
 		//$actions = $this->skin->getAllowedActionsForType($type);
